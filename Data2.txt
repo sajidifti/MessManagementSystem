@@ -1,0 +1,8 @@
+First Name	Last Name	Occupation	PhoneNumber	Username	Password	ProfilePicturePath	AbsentDays	Bill	DueAmount	CreditAmount	
+Ifti	Anam	Student	01793041594	user	1234	man1.jpg	0	4612	-2388	7000	
+Irisa	Anam	Student	01793041594	user2	12345	man1.jpg	0	4725	-1275	6000	
+Alfaz	Aksh	Student	01315185458	user3	123456	man2.jpg	0	5066	-1934	7000	
+Mahfuz	Anam	Student	01793041597	user5	12345	man1.jpg	7	4325	-2175	6500	
+Ifti	Anam	Student	01793041594	user	1234	man1.jpg	0	4612	-2388	7000	
+Ifti	Anam	Student	01793041594	user	1234	man1.jpg	0	4612	-2388	7000	
+Ifti	Anam	Student	01793041594	user	1234	gfe	0	4612	-2388	7000	

@@ -1,0 +1,2 @@
+First Name	Last Name	Occupation	PhoneNumber	Username	Password	ProfilePicturePath	AbsentDays	Bill	DueAmount	CreditAmount	
+Ifti	Anam	Student	01793041594	user	1234	man1.jpg	0	4612	-2388	7000	
