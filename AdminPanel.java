@@ -376,24 +376,53 @@ public class AdminPanel extends JFrame implements ActionListener, MouseListener 
         dueTextField.setText(due);
         creditTextField.setText(credit);
 
+        //try {
+            //File imgFile = new File(profile);
+            //image = new ImageIcon(getClass().getResource(profile));
+
+            //if (imgFile.exists()) {
+                //profilePhoto = new JLabel(image);
+                //profilePhoto.setBounds(950, 100, 300, 300);
+                //profilePhoto.setVisible(true);
+                //c.add(profilePhoto);
+            //} else {
+                //profilePhoto = new JLabel("Photo Not Found");
+                //profilePhoto.setBounds(950, 100, 300, 300);
+                //profilePhoto.setVisible(true);
+                //c.add(profilePhoto);
+            //}
+        //} catch (Exception e5Exception) {
+            // TODO: handle exception
+            //JOptionPane.showMessageDialog(null, "Error");
+        //}
+        
         try {
             File imgFile = new File(profile);
-            image = new ImageIcon(getClass().getResource(profile));
+           
+            if(profilePhoto!=null){
+
+                c.remove(profilePhoto);
+            }
 
             if (imgFile.exists()) {
+                image = new ImageIcon(getClass().getResource(profile));
                 profilePhoto = new JLabel(image);
                 profilePhoto.setBounds(950, 100, 300, 300);
                 profilePhoto.setVisible(true);
                 c.add(profilePhoto);
+                revalidate();
+                repaint();
             } else {
                 profilePhoto = new JLabel("Photo Not Found");
                 profilePhoto.setBounds(950, 100, 300, 300);
                 profilePhoto.setVisible(true);
                 c.add(profilePhoto);
+                revalidate();
+                repaint();
             }
         } catch (Exception e5Exception) {
             // TODO: handle exception
-            JOptionPane.showMessageDialog(null, "Error");
+            JOptionPane.showMessageDialog(null, "Error Error");
         }
     }
 
